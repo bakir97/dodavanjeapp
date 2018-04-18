@@ -1,0 +1,32 @@
+.velikoDugme{
+    background: $dugme-ljubicasta;
+    border: none;
+    border-bottom: .6rem solid darken($color: $dugme-ljubicasta, $amount: 10%);
+    color: white;
+    font-weight: bold;
+    font-size: $velicina-l;
+    width: 100%;
+    margin-bottom: $velicina-m;
+    padding: 2.4rem;
+}
+.velikoDugme:disabled{
+    opacity: .5;
+}
+@media(min-width:$desktop){
+    .velikoDugme{
+    margin-bottom: $velicina-xl}
+}
+.dugme{
+    background: $dugme-ljubicasta;
+    border: none;
+    border-bottom: .3rem solid darken($color: $dugme-ljubicasta, $amount: 10%);
+    font-weight: 500;
+    padding:$velicina-s;
+    color: white;
+}
+.dugme--link{
+    background: none;
+    border: none;
+    color: $text-bijela;
+    padding:0;
+}

@@ -1,0 +1,29 @@
+.error{
+    color:$text-bijela;
+    font-style: italic;
+    padding: 0 $velicina-m;
+    margin: $velicina-m 0 0 0;
+}
+.forma-text{
+    display: flex;
+    flex-direction: column;
+    padding: $velicina-m;
+
+}
+.forma-text__input{
+    flex-grow: 1;
+    background: $plava;
+    color: $text-bijela;
+    padding: $velicina-s;
+    border: none;
+    border-bottom: .3rem solid darken($color: $plava, $amount: 10%);
+    margin: 0 0 $velicina-s 0;
+}
+@media (min-width: $desktop){
+    .forma-text{
+        flex-direction: row;
+    }
+    .forma-text__input{
+        margin: 0 $velicina-s 0 0;
+    }
+}

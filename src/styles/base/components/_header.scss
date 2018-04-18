@@ -1,0 +1,22 @@
+.header{
+    background:$background-crna;
+    color: white;
+    margin-bottom: $velicina-s;
+    padding: $velicina-m 0;
+    
+};
+.header__title {
+    font-size: $velicina-l;
+    margin: 0;
+};
+.header__subtitle{
+    columns: $text-bijela;
+    font-weight: 500;
+    font-size: $velicina-m;
+    margin:0;
+}
+@media(min-width:$desktop){
+    .header{
+        margin-bottom: $velicina-xl
+    }
+}

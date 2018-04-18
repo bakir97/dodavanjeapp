@@ -1,0 +1,21 @@
+.widget{
+    background: $light-plava;
+    margin-bottom: $velicina-xl;
+}
+.widget__poruka{
+    color: $text-bijela;
+    margin: 0;
+    padding: $velicina-l;
+    text-align: center;
+    border-bottom: 1px solid lighten($color: $light-plava, $amount: 10%);
+}
+.widget-header{
+    background: $plava;
+    color: $text-bijela;
+    padding: $velicina-m;
+    display: flex;
+    justify-content: space-between;
+}
+.widget-header__h3{
+    margin: 0;
+}
